@@ -1,0 +1,84 @@
+.wrapper .container header {
+    background-image: url("../assets/images/Logo\ Yummy.png");
+    background-repeat: no-repeat;
+    background-size: 79px 79px;
+    background-position: left top;
+    width: 1170px;
+    box-sizing: border-box;
+}
+
+.wrapper .container header nav {
+    flex-shrink: 0;
+    height: 79px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+}
+
+.wrapper .container header nav a {
+    text-decoration: none;
+    color: #774E2E;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.16px;
+}
+
+.wrapper .container section.headerSection {
+    margin: 160px 0 0 0;
+    background-image: url(../assets/images/photoYummyHeader.png);
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    height: 540px;
+    background-size: 575px 596px;
+    background-position: left 595px top -20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .container section.headerSection h1, p {
+    margin: 0;
+}
+
+.wrapper .container section.headerSection h1 {
+    font-size: 110px;
+    font-weight: 800;
+    line-height: 110px;
+    letter-spacing: 5.5px;
+    color: #F37F34;
+}
+
+.container section.headerSection h1 .pug {
+    color: #774E2E;
+}
+
+.wrapper .container section.headerSection p {
+    width: 400px;
+    color: #774E2E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.16px;
+    margin-top: 40px;
+}
+
+.wrapper .container section.headerSection a button {
+    margin-top: 50px;
+    width: 343px;
+    height: 69px;
+    flex-shrink: 0;
+    text-align: center;
+    line-height: 26px;
+    background: #774E2E;
+    border: none;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+}
+.wrapper .container section.headerSection a button:hover{
+    cursor: pointer;
+}

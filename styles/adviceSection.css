@@ -1,0 +1,56 @@
+.wrapper .container main section.adviceSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+.wrapper .container main section.adviceSection .advice {
+    width: 575px;
+    height: 474px;
+    flex-shrink: 0;
+}
+
+.wrapper .container main section.adviceSection .advice h2, p {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+.wrapper .container main section.adviceSection .advice h2 {
+    color: #F37F34;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 79.2px;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+}
+
+.wrapper .container main section.adviceSection .advice h2 .adviceSpan {
+    color: #774E2E;
+}
+
+.wrapper .container main section.adviceSection .advice p {
+    color: #774E2E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.16px;
+}
+
+.wrapper .container main section.adviceSection .imgYummy {
+    width: 575px;
+    height: 722px;
+    flex-shrink: 0;
+}
+
+.wrapper .container main section.adviceSection .advice ul li {
+    color: #774E2E;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.16px;
+}
+.wrapper .container main section.adviceSection .advice ul li::marker {
+font-size: 10px;
+}

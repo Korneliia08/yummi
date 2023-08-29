@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+p,h1,h2,h3,a, button{
+    font-family: Montserrat;
+    font-style: normal;
+}
+.wrapper{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container{
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+}
+.container main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../assets/fonts/static/Montserrat-Regular.ttf");
+}
