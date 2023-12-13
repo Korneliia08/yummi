@@ -1,0 +1,76 @@
+@media (max-width: 1200px) {
+    .wrapper .container section.favoriteSweetsSection {
+        padding: 50px 0;
+    }
+
+    .wrapper .container section.favoriteSweetsSection h2 {
+        font-size: 55px;
+        line-height: 50px;
+        letter-spacing: 0.50px;
+    }
+
+    .wrapper .container section.favoriteSweetsSection {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper .container section.favoriteSweetsSection .card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper .container section.favoriteSweetsSection .card .photoSweets {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .wrapper .container section.favoriteSweetsSection .card p {
+        width: 70%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .wrapper .container section.favoriteSweetsSection h2 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .wrapper .container section.favoriteSweetsSection .card .photoSweets {
+        width: 25%;
+    }
+
+    .wrapper .container section.favoriteSweetsSection .card p {
+        width: 40%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 550px) {
+    .wrapper .container section.favoriteSweetsSection h2 {
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    .wrapper .container section.favoriteSweetsSection .card .photoSweets {
+        width: 20%;
+    }
+
+    .wrapper .container section.favoriteSweetsSection .card h3 {
+        font-size: 20px;
+    }
+
+    .wrapper .container section.favoriteSweetsSection .card p {
+        width: 18%;
+        font-size: 14px;
+    }
+}
+
