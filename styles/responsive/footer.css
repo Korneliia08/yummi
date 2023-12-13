@@ -1,0 +1,64 @@
+@media (max-width: 1800px) {
+    .wrapper footer p {
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .wrapper footer .imgLogoYummy {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 970px) {
+    .wrapper footer {
+        height: 150px;
+    }
+
+    .wrapper footer p {
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    .wrapper footer .imgLogoYummy {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .wrapper footer {
+        height: 100px;
+        box-sizing: border-box;
+    }
+
+    .wrapper footer p {
+        font-size: 16px;
+        line-height: 1;
+    }
+
+    .wrapper footer .imgLogoYummy {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 550px) {
+    .wrapper footer {
+        height: 100px;
+        box-sizing: border-box;
+    }
+
+    .wrapper footer p {
+        width: 210px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .wrapper footer .imgLogoYummy {
+        width: 40px;
+        height: 40px;
+    }
+}
+
