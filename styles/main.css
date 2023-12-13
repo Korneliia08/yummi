@@ -1,28 +1,33 @@
-body{
+body {
     margin: 0;
 }
-p,h1,h2,h3,a, button{
-    font-family: Montserrat;
+
+p, h1, h2, h3, a, button {
+    font-family: Montserrat, serif;
     font-style: normal;
 }
-.wrapper{
+
+.wrapper {
     padding-top: 30px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.container{
+
+.container {
     width: 1170px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 150px;
 }
-.container main{
+
+.container main {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 150px;
+    width: 100vw;
 }
 
 @font-face {
