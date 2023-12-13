@@ -1,0 +1,101 @@
+@media (max-width: 1170px) {
+    .wrapper .container header {
+        background-image: url("../../assets/images/LogoYummy.png");
+        background-size: 49px 49px;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        flex-direction: column;
+        background-position: right 10px top 10px;
+        box-sizing: border-box;
+    }
+
+    .wrapper .container header nav {
+        padding: 0 40px;
+        height: 70px;
+    }
+
+    .wrapper .container section.headerSection {
+        width: 100%;
+        margin: 10px 0 0 0;
+        background-image: url(../../assets/images/photoYummyHeader.png);
+        height: 410px;
+        background-size: 300px;
+        background-position: right 10px top 20px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        box-sizing: border-box;
+    }
+
+    .wrapper .container section.headerSection h1 {
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 60px;
+        letter-spacing: 2px;
+    }
+
+    .wrapper .container section.headerSection p {
+        margin-top: 20px;
+    }
+
+    .wrapper .container section.headerSection a button {
+        margin-top: 20px;
+        width: 343px;
+        height: 60px;
+        line-height: 20px;
+        font-size: 18px;
+        transition: 700ms;
+    }
+
+    .wrapper .container section.headerSection a button:hover {
+        cursor: pointer;
+        scale: 0.98;
+    }
+}
+
+@media (max-width: 750px) {
+    .wrapper .container header nav {
+        padding: 0 40px 0 10px;
+        gap: 15px;
+    }
+
+    .wrapper .container header nav a {
+        letter-spacing: 0;
+        font-size: 14px;
+    }
+
+    .wrapper .container section.headerSection {
+        background-size: 200px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .wrapper .container header {
+        background-size: 39px 39px;
+        background-position: left 40px top 10px;
+    }
+
+    .wrapper .container section.headerSection {
+        background-size: 160px;
+    }
+}
+
+@media (max-width: 450px) {
+    .wrapper .container header {
+        background-size: 49px 49px;
+        background-position: left 120px top 10px;
+    }
+
+    .wrapper .container header nav {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .wrapper .container section.headerSection {
+        background-size: 100px;
+    }
+}

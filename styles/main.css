@@ -8,7 +8,7 @@ p, h1, h2, h3, a, button {
 }
 
 .wrapper {
-    padding-top: 30px;
+    padding-top: 10px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -19,15 +19,15 @@ p, h1, h2, h3, a, button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 150px;
+    gap: 20px;
 }
 
 .container main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 150px;
-    width: 100vw;
+    gap: 100px;
+    width: 100%;
 }
 
 @font-face {

@@ -28,6 +28,7 @@
     .wrapper .container section.favoriteSweetsSection .card .photoSweets {
         width: 50%;
         margin-bottom: 10px;
+        height: auto;
     }
 
     .wrapper .container section.favoriteSweetsSection .card p {
@@ -69,7 +70,7 @@
     }
 
     .wrapper .container section.favoriteSweetsSection .card p {
-        width: 18%;
+        width: 80%;
         font-size: 14px;
     }
 }

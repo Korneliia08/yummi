@@ -1,5 +1,5 @@
 .wrapper .container header {
-    background-image: url("../assets/images/Logo\ Yummy.png");
+    background-image: url("../assets/images/LogoYummy.png");
     background-repeat: no-repeat;
     background-size: 79px 79px;
     background-position: left top;
@@ -79,6 +79,7 @@
     letter-spacing: 0.2px;
     font-weight: 500;
 }
-.wrapper .container section.headerSection a button:hover{
+
+.wrapper .container section.headerSection a button:hover {
     cursor: pointer;
 }
