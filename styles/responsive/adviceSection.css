@@ -66,4 +66,23 @@
     .wrapper .container main section.adviceSection .imgYummy {
         display: none;
     }
+
+    .wrapper .container main section.adviceSection .advice h2 {
+        font-size: 18px;
+    }
+
+    .wrapper .container main section.adviceSection .advice p {
+        width: 100%;
+    }
 }
+
+@media (max-width: 500px) {
+    .wrapper .container main section.adviceSection .advice {
+        align-items: center;
+    }
+
+    .wrapper .container main section.adviceSection .advice p {
+        width: 65%;
+    }
+}
+

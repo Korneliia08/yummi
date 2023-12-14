@@ -28,6 +28,9 @@ p, h1, h2, h3, a, button {
     align-items: center;
     gap: 100px;
     width: 100%;
+    @media (max-width: 500px) {
+        gap: 40px;
+    }
 }
 
 @font-face {
