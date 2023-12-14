@@ -50,7 +50,7 @@
     }
 
     .wrapper .container section.favoriteSweetsSection .card p {
-        width: 40%;
+        width: 60%;
         font-size: 18px;
     }
 }
@@ -70,7 +70,7 @@
     }
 
     .wrapper .container section.favoriteSweetsSection .card p {
-        width: 40%;
+        width: 90%;
         font-size: 14px;
     }
 }

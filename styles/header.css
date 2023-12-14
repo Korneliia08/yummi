@@ -14,6 +14,7 @@
     justify-content: end;
     align-items: center;
     gap: 50px;
+    box-sizing: border-box;
 }
 
 .wrapper .container header nav a {
@@ -24,6 +25,12 @@
     font-weight: 500;
     line-height: 130%;
     letter-spacing: 0.16px;
+    transition: 700ms;
+
+    &:hover {
+        color: #7e0303;
+        scale: 1.1;
+    }
 }
 
 .wrapper .container section.headerSection {
@@ -36,6 +43,7 @@
     background-position: left 595px top -20px;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 .wrapper .container section.headerSection h1, p {
@@ -78,8 +86,10 @@
     font-size: 20px;
     letter-spacing: 0.2px;
     font-weight: 500;
+    transition: 700ms;
 }
 
 .wrapper .container section.headerSection a button:hover {
     cursor: pointer;
+    scale: 0.95;
 }

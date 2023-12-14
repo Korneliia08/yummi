@@ -1,101 +1,93 @@
 @media (max-width: 1170px) {
+    .wrapper .container section.headerSection {
+        margin: 90px 0 0 0;
+        padding: 0 50px;
+        box-sizing: border-box;
+    }
+
     .wrapper .container header {
         background-image: url("../../assets/images/LogoYummy.png");
-        background-size: 49px 49px;
+        background-color: #673B19;
+        background-size: 50px 50px;
         width: 100%;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        flex-direction: column;
-        background-position: right 10px top 10px;
-        box-sizing: border-box;
-    }
-
-    .wrapper .container header nav {
-        padding: 0 40px;
-        height: 70px;
-    }
-
-    .wrapper .container section.headerSection {
-        width: 100%;
-        margin: 10px 0 0 0;
-        background-image: url(../../assets/images/photoYummyHeader.png);
-        height: 410px;
-        background-size: 300px;
-        background-position: right 10px top 20px;
-        display: flex;
-        flex-direction: column;
-        padding-left: 50px;
-        box-sizing: border-box;
+        background-position: left 10px top 10px;
     }
 
     .wrapper .container section.headerSection h1 {
-        font-size: 60px;
-        font-weight: 500;
-        line-height: 60px;
-        letter-spacing: 2px;
+        font-size: 70px;
+        letter-spacing: 4px;
+        line-height: 70px;
+    }
+
+    .wrapper .container section.headerSection {
+        background-image: url("../../assets/images/photoYummyHeader.png");
+        background-size: 400px 421px;
+        background-position: right 10px top 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .wrapper .container section.headerSection {
+        background-size: 200px 211px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 770px) {
+    .wrapper .container section.headerSection {
+        margin: 20px 0 0 0;
+        padding: 0 10px;
+        box-sizing: border-box;
+        background-size: 100px 106px;
+    }
+
+    .wrapper .container section.headerSection h1 {
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 70px;
+        letter-spacing: 4px;
     }
 
     .wrapper .container section.headerSection p {
-        margin-top: 20px;
+        width: 100%;
+        color: whitesmoke;;
+
     }
 
     .wrapper .container section.headerSection a button {
-        margin-top: 20px;
-        width: 343px;
-        height: 60px;
-        line-height: 20px;
-        font-size: 18px;
-        transition: 700ms;
+        margin-top: 40px;
+        width: auto;
+        font-size: 16px;
     }
 
-    .wrapper .container section.headerSection a button:hover {
-        cursor: pointer;
-        scale: 0.98;
-    }
-}
-
-@media (max-width: 750px) {
     .wrapper .container header nav {
-        padding: 0 40px 0 10px;
-        gap: 15px;
+        display: none;
     }
 
-    .wrapper .container header nav a {
-        letter-spacing: 0;
+    .wrapper .container section.headerSection a button {
         font-size: 14px;
-    }
-
-    .wrapper .container section.headerSection {
-        background-size: 200px;
-    }
-
-}
-
-@media (max-width: 650px) {
-    .wrapper .container header {
-        background-size: 39px 39px;
-        background-position: left 40px top 10px;
-    }
-
-    .wrapper .container section.headerSection {
-        background-size: 160px;
+        padding: 10px 40px;
     }
 }
 
-@media (max-width: 450px) {
-    .wrapper .container header {
-        background-size: 49px 49px;
-        background-position: left 120px top 10px;
-    }
-
-    .wrapper .container header nav {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-    }
-
+@media (max-width: 570px) {
     .wrapper .container section.headerSection {
-        background-size: 100px;
+        background-size: 70px 73px;
+    }
+
+    .wrapper .container section.headerSection h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .wrapper .container section.headerSection p {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .wrapper .container header {
+        background-size: 40px 40px;
+        background-position: left 10px top 10px;
     }
 }
